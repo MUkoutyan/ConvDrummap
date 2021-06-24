@@ -40,7 +40,7 @@ outputDoc.add_element(pitchNameList)
 
 pitchNameList.add_attribute("title", patchName)
 pitchNames.each do | note, name |
-    pitchName =  REXML::Element.new('Music.PitchNameList')
+    pitchName =  REXML::Element.new('Music.PitchName')
     pitchName.add_attribute("pitch", note)
     pitchName.add_attribute("name", name)
     pitchName.add_attribute("flags", "hide")
