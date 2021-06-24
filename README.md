@@ -9,7 +9,7 @@ This is a Ruby script that converts Cubase/Nuendo drum map files (.drm) to Studi
 # 使い方 Usage
 
 ``` 
-> ruby ConDrummap.rb DRMMAP_FILE.drm 
+> ruby ConvDrummap.rb DRMMAP_FILE.drm 
 (outputFile > DRMMAP_FILE.pitchlist)
 ```
 
